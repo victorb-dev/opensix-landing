@@ -25,24 +25,16 @@ export default function Home() {
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
             Comece gratuitamente
           </h3>
-          <form className="space-y-4">
-            <input
-              type="email"
-              placeholder="Seu melhor e-mail"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
-            />
-            <input
-              type="tel"
-              placeholder="WhatsApp (com DDD)"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
-            />
-            <button
-              type="submit"
-              className="w-full bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
-            >
-              Quero Aumentar Minhas Vendas
-            </button>
-          </form>
+          <iframe
+            src="https://tally.so/r/688EJP"
+            width="100%"
+            height="600"
+            frameBorder="0"
+            marginHeight={0}
+            marginWidth={0}
+            title="Formulário de Contato"
+            className="rounded-lg"
+          ></iframe>
           <p className="text-xs text-gray-500 mt-4">
             Sem cartão de crédito. Sem compromisso.
           </p>
